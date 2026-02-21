@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تنزيل تطبيق الفاروق</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Cairo',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0a192f,#0d1b2a,#1b263b);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    color:white;
+    padding:20px;
+}
+
+.container{
+    background:rgba(255,255,255,0.05);
+    backdrop-filter:blur(15px);
+    padding:35px;
+    border-radius:20px;
+    width:100%;
+    max-width:520px;
+    text-align:center;
+    box-shadow:0 15px 40px rgba(0,0,0,0.5);
+}
+
+.logo{
+    width:100px;
+    margin-bottom:20px;
+}
+
+h1{
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+.description{
+    font-size:16px;
+    margin-bottom:25px;
+    line-height:1.8;
+}
+
+.section-title{
+    margin-top:30px;
+    margin-bottom:15px;
+    font-size:19px;
+    font-weight:bold;
+    opacity:0.95;
+}
+
+/* أزرار التحميل */
+.btn{
+    display:block;
+    width:100%;
+    padding:18px;
+    margin:15px 0;
+    border-radius:15px;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.primary{
+    background:#0d47a1;
+    color:white;
+}
+
+.primary:hover{
+    background:#08306b;
+}
+
+.secondary{
+    background:#1565c0;
+    color:white;
+}
+
+.secondary:hover{
+    background:#0d47a1;
+}
+
+/* بطاقات التواصل */
+.contact-grid{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:15px;
+    margin-top:15px;
+}
+
+.contact-card{
+    background:rgba(255,255,255,0.08);
+    padding:15px;
+    border-radius:15px;
+    text-decoration:none;
+    color:white;
+    font-size:16px;
+    transition:0.3s;
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+.contact-card:hover{
+    background:rgba(255,255,255,0.15);
+    transform:translateY(-3px);
+}
+
+.info{
+    margin-top:15px;
+    font-size:14px;
+    opacity:0.85;
+    line-height:1.7;
+}
+
+footer{
+    margin-top:25px;
+    font-size:12px;
+    opacity:0.6;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <img src="image copy.png" class="logo" alt="شعار التطبيق">
+
+    <h1>تطبيق الفاروق</h1>
+
+    <div class="description">
+        اختر الزر المناسب لتحميل التطبيق بسهولة.
+    </div>
+
+    <!-- قسم التحميل -->
+    <div class="section-title">⬇ تحميل التطبيق</div>
+
+    <a href="arm64,armabi/app-release.apk" class="btn primary">
+        📱 تحميل للأجهزة الحديثة (موصى به)
+    </a>
+
+    <a href="all/app-release.apk" class="btn secondary">
+        📱 تحميل للأجهزة القديمة
+    </a>
+
+    <div class="info">
+        ⭐ إذا لم تكن متأكد من نوع جهازك، اضغط على الزر الأول.<br>
+        بعد التحميل افتح الملف واضغط "تثبيت".
+    </div>
+
+    <!-- قسم التواصل بعد التحميل -->
+    <div class="section-title">📞 تواصل معنا</div>
+
+    <div class="contact-grid">
+
+        <a href="https://wa.me/967778972159" class="contact-card">
+            واتساب: 778972159
+        </a>
+
+        <a href="https://t.me/eng_o_ahmed" class="contact-card">
+            تيليجرام: @eng_o_ahmed
+        </a>
+
+        <a href="mailto:eng.osama.a.farhan@gmail.com" class="contact-card">
+            البريد الإلكتروني: eng.osama.a.farhan@gmail.com
+        </a>
+
+    </div>
+
+    <footer>
+        © 2026 جميع الحقوق محفوظة
+    </footer>
+
+</div>
+
+</body>
+</html>
